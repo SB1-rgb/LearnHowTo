@@ -14,6 +14,8 @@ public class GitStepByStepGuide {
         String step10 = "Create a new pull request into the origin/master branch";
         String step11 = "Invite colaborators to review the code";
         String step12 = "Merge the code";
+        String step12_1 = "If changes are required I have to modify my local branch and perform a git commit amend";
+        String step12_2 = "After git commit amend we have to do a force git push-f";
         String step13 = "Delete the created the secondary branch as it is already merged";
         String step14 = "Go to the master IntellijIdea and checkout the master branch- git checkout master";
         String step15 = "Download the latest version of the origin/master- git fetch and git pull";
@@ -29,6 +31,8 @@ public class GitStepByStepGuide {
         System.out.println(step10);
         System.out.println(step11);
         System.out.println(step12);
+        System.out.println(step12_1);
+        System.out.println(step12_2);
         System.out.println(step13);
         System.out.println(step14);
         System.out.println(step15);
